@@ -22,7 +22,7 @@ namespace DAL
             string strSqlGetUser = "select * from T_User where UserName=@UserName";
 
             SQLHelp help = new SQLHelp();
-             
+              
             SqlDataReader dr = null;
 
             SqlParameter[] para = {
